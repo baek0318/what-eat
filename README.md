@@ -60,7 +60,8 @@
 
 ```json
 {
-  "status": "Integer"
+  "status": "Integer",
+  "place-id": "Integer"
 }
 ```
 
@@ -69,6 +70,7 @@
 |Name|Type|Description|
 |----|----|-----------|
 |status|Integer| 좋았다면 1, 별로였다면 0 (required) |
+|place-id|Integer| 장소의 id값 (required)|
 
 **response**
 ```json
